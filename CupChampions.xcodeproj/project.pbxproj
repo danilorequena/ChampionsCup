@@ -65,6 +65,8 @@
 		FFD1E1A523B03CB100359BB0 /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1E1A423B03CB100359BB0 /* WinnersTableViewController.swift */; };
 		FFD1E1A823B03D6A00359BB0 /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1E1A723B03D6A00359BB0 /* WorldCupViewController.swift */; };
 		FFD1E1AA23B3874B00359BB0 /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1E1A923B3874B00359BB0 /* WorldCup.swift */; };
+		FFD1E1AD23B38BD400359BB0 /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1E1AC23B38BD400359BB0 /* Matches.swift */; };
+		FFD1E1AF23B38C3600359BB0 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1E1AE23B38C3600359BB0 /* Games.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +130,8 @@
 		FFD1E1A423B03CB100359BB0 /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
 		FFD1E1A723B03D6A00359BB0 /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		FFD1E1A923B3874B00359BB0 /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		FFD1E1AC23B38BD400359BB0 /* Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
+		FFD1E1AE23B38C3600359BB0 /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +255,8 @@
 			isa = PBXGroup;
 			children = (
 				FFD1E1A923B3874B00359BB0 /* WorldCup.swift */,
+				FFD1E1AC23B38BD400359BB0 /* Matches.swift */,
+				FFD1E1AE23B38C3600359BB0 /* Games.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -377,7 +383,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFD1E1A523B03CB100359BB0 /* WinnersTableViewController.swift in Sources */,
+				FFD1E1AD23B38BD400359BB0 /* Matches.swift in Sources */,
 				FFCFE14623A4721000B30D92 /* AppDelegate.swift in Sources */,
+				FFD1E1AF23B38C3600359BB0 /* Games.swift in Sources */,
 				FFD1E1AA23B3874B00359BB0 /* WorldCup.swift in Sources */,
 				FFD1E1A823B03D6A00359BB0 /* WorldCupViewController.swift in Sources */,
 				FFCFE14823A4721000B30D92 /* SceneDelegate.swift in Sources */,
