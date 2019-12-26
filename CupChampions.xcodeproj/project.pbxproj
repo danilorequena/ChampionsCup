@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF58647E23B46003009A47BF /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58647D23B46003009A47BF /* WorldCupTableViewCell.swift */; };
 		FFCFE14623A4721000B30D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFE14523A4721000B30D92 /* AppDelegate.swift */; };
 		FFCFE14823A4721000B30D92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFE14723A4721000B30D92 /* SceneDelegate.swift */; };
 		FFCFE14D23A4721000B30D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCFE14B23A4721000B30D92 /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF58647D23B46003009A47BF /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
 		FFCFE14223A4721000B30D92 /* CupChampions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupChampions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCFE14523A4721000B30D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFCFE14723A4721000B30D92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			children = (
 				FFD1E1A423B03CB100359BB0 /* WinnersTableViewController.swift */,
 				FFD1E1A723B03D6A00359BB0 /* WorldCupViewController.swift */,
+				FF58647D23B46003009A47BF /* WorldCupTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFD1E1A523B03CB100359BB0 /* WinnersTableViewController.swift in Sources */,
+				FF58647E23B46003009A47BF /* WorldCupTableViewCell.swift in Sources */,
 				FFD1E1AD23B38BD400359BB0 /* Matches.swift in Sources */,
 				FFCFE14623A4721000B30D92 /* AppDelegate.swift in Sources */,
 				FFD1E1AF23B38C3600359BB0 /* Games.swift in Sources */,
