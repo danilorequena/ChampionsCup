@@ -10,21 +10,28 @@ import UIKit
 
 class WorldCupViewController: UIViewController {
 
+    var worldCup: WorldCup!
+    @IBOutlet weak var ivWinner: UIImageView!
+    @IBOutlet weak var ivVice: UIImageView!
+    @IBOutlet weak var lbScoreWinner: UILabel!
+    @IBOutlet weak var lbScoreVice: UILabel!
+    @IBOutlet weak var lbScore: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupScoore()
     }
     
 
-    /*
-    // MARK: - Navigation
+    func setupScoore(){
+        title = "WorldCup \(worldCup.year)"
+        ivWinner.image = UIImage(named: "\(worldCup.winner).png")
+        ivVice.image = UIImage(named: "\(worldCup.vice).png")
+        lbScoreWinner.text = worldCup.winner
+        lbScoreVice.text = worldCup.vice
+        lbScore.text = "\(worldCup.winnerScore) x \(worldCup.viceScore)"
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
 
 }

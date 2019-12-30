@@ -19,6 +19,12 @@ class WinnersTableViewController: UITableViewController {
         loadWorldCups()
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! WorldCupViewController
+        let worldCup = worldCups[tableView.indexPathForSelectedRow!.row]
+        vc.worldCup = worldCup
+    }
 
     // MARK: - Table view data source
 
