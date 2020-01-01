@@ -16,6 +16,7 @@ class WorldCupViewController: UIViewController {
     @IBOutlet weak var lbScoreWinner: UILabel!
     @IBOutlet weak var lbScoreVice: UILabel!
     @IBOutlet weak var lbScore: UILabel!
+    @IBOutlet weak var tableview: UITableView!
     
     
     override func viewDidLoad() {
@@ -34,4 +35,26 @@ class WorldCupViewController: UIViewController {
 
     }
 
+}
+
+extension WorldCupViewController: UITableViewDataSource{
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return worldCup.matches.count
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let games = worldCup.matches[section].games
+        return games.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        return cell
+    }
+    
+    
+}
+
+extension WorldCupViewController: UITableViewDelegate{
+    
 }
